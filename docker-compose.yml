@@ -42,7 +42,7 @@ services:
             # or running the daemon inside the container. Choose one or the other.
             # Uncomment next line to run avahi-daemon inside the container.
             # See volumes and security_opt section below to use the host daemon.
-            # - SCRYPTED_DOCKER_AVAHI=true
+            - SCRYPTED_DOCKER_AVAHI=true
 
         # NVIDIA (Part 1 of 2)
         # runtime: nvidia
