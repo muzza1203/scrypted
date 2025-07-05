@@ -70,7 +70,7 @@ echo "WATCHTOWER_HTTP_API_TOKEN=$WATCHTOWER_HTTP_API_TOKEN" > $SCRYPTED_HOME/.en
 echo "WATCHTOWER_HTTP_API_PERIODIC_POLLS=true" >> $SCRYPTED_HOME/.env
 
 DOCKER_COMPOSE_YML=$SCRYPTED_HOME/docker-compose.yml
-curl -s https://raw.githubusercontent.com/koush/scrypted/main/install/docker/docker-compose.yml > $DOCKER_COMPOSE_YML
+curl -s https://github.com/muzza1203/scrypted/raw/refs/heads/main/docker-compose.yml > $DOCKER_COMPOSE_YML
 echo "Created $DOCKER_COMPOSE_YML"
 
 if [ -z "$SCRYPTED_LXC" ]
